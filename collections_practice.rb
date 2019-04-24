@@ -35,5 +35,5 @@ end
 
 def add_s(array)
   array.each_with_index.collect { |element, index| }
-  puts "#{element}" + "s"
+  puts "#{element}" + "s" if index != 2
 end
