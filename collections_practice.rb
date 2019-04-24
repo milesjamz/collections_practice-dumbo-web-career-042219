@@ -22,6 +22,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  array.select do |letter|
+    letter.start_with?("a") = letter
 end
 
 def sum_array(array)
