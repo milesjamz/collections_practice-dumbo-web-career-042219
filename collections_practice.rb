@@ -24,6 +24,7 @@ end
 def find_a(array)
   array.select do |letter|
     letter.start_with?("a") = letter
+  end
 end
 
 def sum_array(array)
