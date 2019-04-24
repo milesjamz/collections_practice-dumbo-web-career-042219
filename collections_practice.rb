@@ -22,7 +22,6 @@ end
 def kesha_maker(array)
   array.map do |word|
     word[2] = "$"
-    return array
   end
 end
 
