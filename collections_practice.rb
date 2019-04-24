@@ -23,7 +23,7 @@ end
 
 def find_a(array)
   array.select do |word|
-  new_array = word.start_with?("a") == word
+  word.start_with?("a") == word
   new_array
   end
 end
